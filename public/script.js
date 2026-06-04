@@ -1,25 +1,50 @@
-const data = {
-    "produtos": [
-      {
-        "id": 1,
-        "nome": "Smartphone Galaxy S23",
-        "preco": 3499.90,
-        "categoria": "Celulares",
-        "imagem": "https://example.com/imagens/galaxy-s23.jpg",
-        "descricao": "Smartphone com 128GB de armazenamento, câmera de alta resolução e excelente desempenho.",
-        "emEstoque": true
-      },
-      {
-        "id": 2,
-        "nome": "Notebook Dell Inspiron 15",
-        "preco": 4599.00,
-        "categoria": "Notebooks",
-        "imagem": "https://example.com/imagens/dell-inspiron-15.jpg",
-        "descricao": "Notebook com processador Intel i7, 16GB de RAM e SSD de 512GB, ideal para trabalho e estudos.",
-        "emEstoque": false
-      }
-    ]
-  }
+const API_URL = "http://localhost:3000/cursos";
+
+async function fetchItems() {
+    const response = await fetch(API_URL);
+    return await response.json();
+}
+
+function createCard(item) {
+    const card = document.createElement("div");
+
+    card.classList.add("card");
+
+    card.innerHTML = `
+        <img src="${item.imagem}" alt="${item.nome}">
+        <h2>${item.nome}</h2>
+        <p>${item.descricaoCurta}</p>
+        <p><strong>Categoria:</strong> ${item.categoria}</p>
+        <p><strong>Preço:</strong> R$ ${item.preco}</p>
+
+        <a class="btn" href="details.html?id=${item.id}">
+            Ver detalhes
+        </a>
+    `;
+
+    return card;
+}
+
+function renderCards(items) {
+    const container = document.getElementById("cards-container");
+
+    container.innerHTML = "";
+
+    items.forEach(item => {
+        container.appendChild(createCard(item));
+    });
+}
+
+async function init() {
+    try {
+        const items = await fetchItems();
+        renderCards(items);
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+init();
 
 
   

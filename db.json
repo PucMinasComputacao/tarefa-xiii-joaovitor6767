@@ -1,0 +1,129 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "JavaScript Básico",
+      "descricaoCurta": "Fundamentos da linguagem JavaScript.",
+      "descricaoCompleta": "Aprenda variáveis, funções, arrays, objetos e manipulação do DOM.",
+      "imagem": "https://picsum.photos/300/200?1",
+      "categoria": "Programação",
+      "preco": 99.90,
+      "tags": ["JavaScript", "Frontend", "Web"],
+      "destaque": true
+    },
+    {
+      "id": 2,
+      "nome": "HTML e CSS",
+      "descricaoCurta": "Criação de páginas web modernas.",
+      "descricaoCompleta": "Aprenda HTML5, CSS3, Flexbox e Grid Layout.",
+      "imagem": "https://picsum.photos/300/200?2",
+      "categoria": "Web Design",
+      "preco": 79.90,
+      "tags": ["HTML", "CSS"],
+      "destaque": false
+    },
+    {
+      "id": 3,
+      "nome": "React",
+      "descricaoCurta": "Biblioteca JavaScript moderna.",
+      "descricaoCompleta": "Desenvolvimento de aplicações SPA utilizando React.",
+      "imagem": "https://picsum.photos/300/200?3",
+      "categoria": "Programação",
+      "preco": 149.90,
+      "tags": ["React", "Frontend"],
+      "destaque": true
+    },
+    {
+      "id": 4,
+      "nome": "Node.js",
+      "descricaoCurta": "Backend com JavaScript.",
+      "descricaoCompleta": "Crie APIs REST utilizando Node.js e Express.",
+      "imagem": "https://picsum.photos/300/200?4",
+      "categoria": "Backend",
+      "preco": 129.90,
+      "tags": ["Node", "API"],
+      "destaque": false
+    },
+    {
+      "id": 5,
+      "nome": "Banco de Dados",
+      "descricaoCurta": "Introdução ao SQL.",
+      "descricaoCompleta": "Modelagem de dados e consultas SQL.",
+      "imagem": "https://picsum.photos/300/200?5",
+      "categoria": "Banco de Dados",
+      "preco": 89.90,
+      "tags": ["SQL", "MySQL"],
+      "destaque": false
+    },
+    {
+      "id": 6,
+      "nome": "Python",
+      "descricaoCurta": "Programação em Python.",
+      "descricaoCompleta": "Aprenda lógica, funções e orientação a objetos.",
+      "imagem": "https://picsum.photos/300/200?6",
+      "categoria": "Programação",
+      "preco": 119.90,
+      "tags": ["Python"],
+      "destaque": true
+    },
+    {
+      "id": 7,
+      "nome": "Git e GitHub",
+      "descricaoCurta": "Controle de versão.",
+      "descricaoCompleta": "Versionamento de código e colaboração em equipe.",
+      "imagem": "https://picsum.photos/300/200?7",
+      "categoria": "Ferramentas",
+      "preco": 49.90,
+      "tags": ["Git", "GitHub"],
+      "destaque": false
+    },
+    {
+      "id": 8,
+      "nome": "Bootstrap",
+      "descricaoCurta": "Framework CSS.",
+      "descricaoCompleta": "Desenvolvimento responsivo com Bootstrap.",
+      "imagem": "https://picsum.photos/300/200?8",
+      "categoria": "Web Design",
+      "preco": 59.90,
+      "tags": ["Bootstrap"],
+      "destaque": false
+    },
+    {
+      "id": 9,
+      "nome": "Java",
+      "descricaoCurta": "Programação orientada a objetos.",
+      "descricaoCompleta": "Aprenda Java e conceitos avançados de POO.",
+      "imagem": "https://picsum.photos/300/200?9",
+      "categoria": "Programação",
+      "preco": 139.90,
+      "tags": ["Java", "POO"],
+      "destaque": true
+    },
+    {
+      "id": 10,
+      "nome": "UX/UI Design",
+      "descricaoCurta": "Experiência do usuário.",
+      "descricaoCompleta": "Criação de interfaces modernas e intuitivas.",
+      "imagem": "https://picsum.photos/300/200?10",
+      "categoria": "Design",
+      "preco": 109.90,
+      "tags": ["UX", "UI"],
+      "destaque": false
+    }
+  ],
+
+  "categorias": [
+    { "id": 1, "nome": "Programação" },
+    { "id": 2, "nome": "Web Design" },
+    { "id": 3, "nome": "Backend" },
+    { "id": 4, "nome": "Banco de Dados" }
+  ],
+
+  "avaliacoes": [
+    {
+      "id": 1,
+      "cursoId": 1,
+      "nota": 5
+    }
+  ]
+}
