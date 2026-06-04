@@ -12,9 +12,9 @@ IMPORTANTE: Assim como informado anteriormente, capriche na etapa pois você vai
 
 ## Prints do trabalho
 
-<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
+![Home](https://github.com/PucMinasComputacao/tarefa-xiii-joaovitor6767/blob/main/home%20page%20semana%2013.jpg?raw=true)
 
-<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
+![Detalhes](https://github.com/PucMinasComputacao/tarefa-xiii-joaovitor6767/blob/main/detalhes%20semana%2013.jpg?raw=true)
 
-<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
+![Console](https://github.com/PucMinasComputacao/tarefa-xiii-joaovitor6767/blob/main/console%20semana%2013.jpg?raw=true)
 
