@@ -7,8 +7,8 @@ IMPORTANTE: Assim como informado anteriormente, capriche na etapa pois você vai
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Joao Vitor Freitas Fernandes
+- Matricula: 914121
 
 ## Prints do trabalho
 
